@@ -1,12 +1,3 @@
-// document.addEventListener("DOMContentLoaded", function() {
-
-//     let userName = prompt("Silahkan masukkan nama Anda:");
-
-//     if (userName) {
-//         document.getElementById("greeting").textContent = `Hello ${userName}, welcome to our website`;
-//     }
-// });
-
 function get_name(){
     let user_name = prompt("Enter your name: ")
     document.getElementById("user_name").innerHTML = user_name;
@@ -34,20 +25,6 @@ scrollRightButton.addEventListener('click', () => {
     });
 });
 
-
-// document.addEventListener('keydown', (event) => {
-//     if (event.key === 'ArrowLeft') {
-//         slider.scrollBy({
-//             left: -scrollAmount,
-//             behavior: 'smooth'
-//         });
-//     } else if (event.key === 'ArrowRight') {
-//         slider.scrollBy({
-//             left: scrollAmount,
-//             behavior: 'smooth'
-//         });
-//     }
-// });
 
 var slideIndex = 1;
 showDivs(slideIndex);
@@ -96,32 +73,3 @@ document.getElementById('contact_form').addEventListener('submit', function(even
     document.getElementById('result_message').innerHTML = `<strong>Pesan</strong> : ${message}`
 
 });
-
-// document.getElementById('submit').addEventListener('click', function(){
-//     validate_form();
-// });
-
-// function sender_info(nama_lengkap, tanggal_lahir, jenis_kelamin, message) {
-
-//     document.getElementById("result_name").innerHTML = nama_lengkap;
-//     document.getElementById("result_date").innerHTML = tanggal_lahir;
-//     document.getElementById("result_gender").innerHTML = jenis_kelamin;
-//     document.getElementById("result_message").innerHTML = message;
-
-// };
-
-// function validate_form(){
-//     const nama_lengkap = document.forms["contact_form"]["nama_lengkap"].value;
-//     const tanggal_lahir = document.forms["contact_form"]["tanggal_lahir"].value;
-//     const jenis_kelamin = document.forms["contact_form"]["jenis_kelamin"].value;
-//     const message = document.forms["contact_form"]["message"].value;
-    
-//     if (nama_lengkap == "" || tanggal_lahir == "" || jenis_kelamin == "" || message == ""){
-//         alert("Tidak boleh ada yang kosong");
-//         return false;
-//     }
-
-//     sender_info(nama_lengkap, tanggal_lahir, jenis_kelamin, message);
-
-//     return false;
-// };
