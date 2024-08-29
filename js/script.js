@@ -67,9 +67,9 @@ document.getElementById('contact_form').addEventListener('submit', function(even
     }
 
     document.getElementById('date').innerHTML = `<strong>Current Date</strong> : ${currentTime}`
-    document.getElementById('result_name').innerHTML = `<strong>Nama</strong> : ${nama_lengkap}`
-    document.getElementById('result_date').innerHTML = `<strong>Tanggal lahir</strong> : ${tanggal_lahir}`
-    document.getElementById('result_gender').innerHTML = `<strong>Jenis kelamin</strong> : ${jenis_kelamin}`
-    document.getElementById('result_message').innerHTML = `<strong>Pesan</strong> : ${message}`
+    document.getElementById('result_name').innerHTML = `<strong>Full Name</strong> : ${nama_lengkap}`
+    document.getElementById('result_date').innerHTML = `<strong>Date of Birth</strong> : ${tanggal_lahir}`
+    document.getElementById('result_gender').innerHTML = `<strong>Gender</strong> : ${jenis_kelamin}`
+    document.getElementById('result_message').innerHTML = `<strong>Message</strong> : ${message}`
 
 });
